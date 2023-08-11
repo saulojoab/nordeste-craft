@@ -14,6 +14,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> CUSCUZ = ITEMS.register("cuscuz", () -> new Item(new Item.Properties().food(ModFoods.Cuscuz)));
     public static final RegistryObject<Item> TAPIOCA = ITEMS.register("tapioca", () -> new Item(new Item.Properties().food(ModFoods.Tapioca)));
+    public static final RegistryObject<Item> BAIAO_DE_DOIS = ITEMS.register("baiaodedois", () -> new Item(new Item.Properties().food(ModFoods.BaiaoDeDois)));
+    public static final RegistryObject<Item> RAPADURA = ITEMS.register("rapadura", () -> new Item(new Item.Properties().food(ModFoods.Rapadura)));
+    public static final RegistryObject<Item> CAJU = ITEMS.register("caju", () -> new Item(new Item.Properties().food(ModFoods.Caju)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

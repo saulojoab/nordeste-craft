@@ -58,6 +58,9 @@ public class NordesteCraft {
         if (event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
             event.accept(ModItems.CUSCUZ);
             event.accept(ModItems.TAPIOCA);
+            event.accept(ModItems.BAIAO_DE_DOIS);
+            event.accept(ModItems.RAPADURA);
+            event.accept(ModItems.CAJU);
         }
     }
 

@@ -15,6 +15,9 @@ public class ModCreativeModTabs {
     public static final RegistryObject<CreativeModeTab> NORDESTE_TAB = CREATIVE_MODE_TABS.register("nordeste_craft", () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.CUSCUZ.get())).title(Component.translatable("creativetab.nordeste_tab")).displayItems((pParameters, pOutput) -> {
         pOutput.accept(ModItems.CUSCUZ.get());
         pOutput.accept(ModItems.TAPIOCA.get());
+        pOutput.accept(ModItems.BAIAO_DE_DOIS.get());
+        pOutput.accept(ModItems.RAPADURA.get());
+        pOutput.accept(ModItems.CAJU.get());
     }).build());
 
 
